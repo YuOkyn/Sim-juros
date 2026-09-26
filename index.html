@@ -9,18 +9,23 @@
 <body>
     <div id="faixa1">
     <h1>Cáuculo de empréstimo (Price)</h1>
+    <a style="text-decoration: none; color: black" href="https://github.com/yuokyn/">Ver Outros projetos</a>
     </div>
     <form id="formulário">
+    <div id="center">
     <input id="empréstimo" class="enters" type="text">
     <input id="parcelas" class="enters" type="number">
-    <input id="tax" class="enters" type="number">
-    <div id="faixa2">
-        <div style="display: flex;">
-        <h2 id="prestação">Prestação</h2>
-        <h2 id="total">Total final</h2>
-            </div>
-            <button type="submit">Simular</button>
+    <input id="tax" class="enters" type="text">
     </div>
+    <div id="faixa2">
+        <div id="results">
+        <h2>Prestação:</h2>
+        <h2 id="prestação"></h2>
+        <h2>Total final:</h2>
+        <h2 id="total"></h2>
+    </div>
+        <h2 id="marca">©João Damasceno 2026</h2>
+         <button id="btnsimular" type="submit">Simular</button>
     </form>
     <script src="script.js"></script>
 </body>
