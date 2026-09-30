@@ -16,7 +16,6 @@ body{
     background-color: white;
     flex-direction: column;
     height: 497px;
-    position: fixed;
     left: 35%;
 }
 #faixa2{
@@ -74,6 +73,7 @@ body{
     }
     #results{
         gap: 5px;
+        font-size: 4px;
     }
     #btnsimular{
         padding: 1px 2px;
