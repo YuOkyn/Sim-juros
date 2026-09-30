@@ -59,14 +59,14 @@ body{
 @media (max-width: 342px){
     #faixa1{
         height: 60px;
-        font-size: 8px;
+        font-size: 4px;
     }
     #faixa2{
-        font-size: 6px;
+        font-size: 4px;
     }
     #center{
         height: 430px;
-        left: -10%;
+        left: -40%;
     }
     #marca{
         position: absolute;
@@ -76,6 +76,6 @@ body{
         gap: 5px;
     }
     #btnsimular{
-        padding: 3px 6px;
+        padding: 1px 2px;
     }
 }
