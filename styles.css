@@ -55,13 +55,13 @@ body{
     bottom: 10%;
     right: 5%;
 }
-@media (max-width: 342px){
+@media (max-width: 400px){
     #faixa1{
         height: 60px;
-        font-size: 4px;
+        font-size: 10px;
     }
     #faixa2{
-        font-size: 4px;
+        font-size: 10px;
     }
     #center{
         height: 430px;
@@ -73,9 +73,9 @@ body{
     }
     #results{
         gap: 5px;
-        font-size: 4px;
+        font-size: 10px;
     }
     #btnsimular{
-        padding: 1px 2px;
+        padding: 6px 12px;
     }
 }
