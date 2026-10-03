@@ -1,4 +1,4 @@
-// window.alert("ATENÇÃO!! esse site utiliza fórmula para simular um empréstimo com juros reais apenas para fins acadêmicos e não subistitui qualquer ferramenta regularizada ou um contador profissional")
+window.alert("ATENÇÃO!! esse site utiliza fórmula para simular um empréstimo com juros reais apenas para fins acadêmicos e não subistitui qualquer ferramenta regularizada ou um contador profissional")
 let f = document.getElementById("formulário")
 
 f.addEventListener("submit", function cauc(a){
